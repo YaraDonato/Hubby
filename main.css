@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #191919;
+}
+
+h1{
+    color: white;
+    background-color: rgb(155, 155, 155);
+    padding: 30px;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+.box{
+    font-size: 20px;
+    color: white;
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 150px;
+}
+
+button{
+    height: 30px;
+    width: 50px;
+    background: white;
+    border-radius: 1rem;
+    color: red;
+}
